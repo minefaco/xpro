@@ -49,6 +49,7 @@ dofile(modpath.."/metodos/die.lua")
 dofile(modpath.."/metodos/craft.lua")
 dofile(modpath.."/metodos/dig_node.lua")
 dofile(modpath.."/metodos/place_node.lua")
+dofile(modpath.."/metodos/kill_player.lua")
 
 -- Suporte para mods
 dofile(modpath.."/mods_suportados/minetest_game.lua")
