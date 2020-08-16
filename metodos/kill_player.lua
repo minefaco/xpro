@@ -11,7 +11,7 @@
 
 -- Lista de itens que geram recompensa
 xpro.kill_player_xp_list = {}
-server="<Voz del mundo>"
+server="" --opcional: colocar nombre del servidor antes del mensaje.
 -- Chamada global
 
 minetest.register_on_punchplayer(function(player, hitter, _, _, _, damage)
